@@ -19,7 +19,7 @@ I have spent two summers in **London** as a **DevOps** intern at White Swan Data
 **[Stackline](https://jesusrgc.dev/en/projects/stackline/)** · five university lab practices, one web farm: eight Apache containers behind HAProxy, Nginx and Traefik, my own certificate authority, and deny-by-default firewalls.
 <sub>`Docker` `HAProxy` `Nginx` `OpenSSL` `iptables` `Locust`</sub>
 
-**[omarchy-plugins](https://github.com/5d0tal1gat0r/omarchy-stocks)** · a stock ticker and an [AI agent watcher](https://github.com/5d0tal1gat0r/omarchy-agent-watcher) for the Omarchy desktop bar.
+**Omarchy Plugins** · open-source plugins for the Omarchy desktop: [omarchy-stocks](https://github.com/5d0tal1gat0r/omarchy-stocks), a stock ticker with charts for the bar; [omarchy-agent-watcher](https://github.com/5d0tal1gat0r/omarchy-agent-watcher), which shows which AI coding agent is done or waiting for you; and [omarchy-fieldbook](https://github.com/5d0tal1gat0r/omarchy-fieldbook), a floating notebook with chapters, sketches and images.
 <sub>`QML` `Quickshell` `Hyprland`</sub>
 
 ---

@@ -30,11 +30,11 @@
 <line x1="40" y1="206" x2="860" y2="206" stroke="#26354d" stroke-dasharray="4 4"/>
 <g class="rise" style="animation-delay:.8s"><text x="40" y="250" xml:space="preserve"><tspan class="acc">$ </tspan>neofetch</text></g>
 <g class="rise" style="animation-delay:.85s"><text x="40" y="283.6" xml:space="preserve"><tspan class="acc b">jesus</tspan><tspan class="dim">@</tspan><tspan class="acc b">5d0tal1gat0r</tspan><tspan class="dim">  --------------------</tspan></text></g>
-<g class="rise" style="animation-delay:0.90s"><text x="40" y="310.9" xml:space="preserve"><tspan class="soft b">OS      </tspan>Arch Linux, Omarchy</text></g>
-<g class="rise" style="animation-delay:0.97s"><text x="40" y="331.9" xml:space="preserve"><tspan class="soft b">WM      </tspan>Hyprland</text></g>
-<g class="rise" style="animation-delay:1.04s"><text x="40" y="352.9" xml:space="preserve"><tspan class="soft b">Host    </tspan>Universidad de Granada</text></g>
-<g class="rise" style="animation-delay:1.11s"><text x="40" y="373.9" xml:space="preserve"><tspan class="soft b">Degree  </tspan>Computer Engineering</text></g>
-<g class="rise" style="animation-delay:1.18s"><text x="40" y="394.9" xml:space="preserve"><tspan class="soft b">Work    </tspan>Internship at White Swan Data, London</text></g>
+<g class="rise" style="animation-delay:0.90s"><text x="40" y="310.9" xml:space="preserve"><tspan class="soft b">OS          </tspan>Arch Linux, Omarchy</text></g>
+<g class="rise" style="animation-delay:0.97s"><text x="40" y="331.9" xml:space="preserve"><tspan class="soft b">WM          </tspan>Hyprland</text></g>
+<g class="rise" style="animation-delay:1.04s"><text x="40" y="352.9" xml:space="preserve"><tspan class="soft b">Host        </tspan>Universidad de Granada</text></g>
+<g class="rise" style="animation-delay:1.11s"><text x="40" y="373.9" xml:space="preserve"><tspan class="soft b">Degree      </tspan>Computer Engineering</text></g>
+<g class="rise" style="animation-delay:1.18s"><text x="40" y="394.9" xml:space="preserve"><tspan class="soft b">Internship  </tspan>White Swan Data, London</text></g>
 <g class="rise" style="animation-delay:0.94s"><text x="470" y="310.9" xml:space="preserve"><tspan class="soft b">Langs   </tspan>Python, JavaScript, QML</text></g>
 <g class="rise" style="animation-delay:1.01s"><text x="470" y="331.9" xml:space="preserve"><tspan class="soft b">Repos   </tspan>8 public, 5 stars</text></g>
 <g class="rise" style="animation-delay:1.07s"><text x="470" y="352.9" xml:space="preserve"><tspan class="soft b">Year    </tspan>1,320 contributions</text></g>

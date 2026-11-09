@@ -137,16 +137,16 @@ function neofetch() {
   const facts = [
     [['jesus', 'acc b'], ['@', 'dim'], ['5d0tal1gat0r', 'acc b']],
     [['-----------------------', 'dim']],
-    [['OS      ', 'soft b'], ['Arch Linux, Omarchy (Hyprland)', '']],
-    [['Host    ', 'soft b'], ['Universidad de Granada', '']],
-    [['Degree  ', 'soft b'], ['B.Sc. Computer Engineering', '']],
-    [['Role    ', 'soft b'], ['sysadmin / infra / networks / devops', '']],
-    [['Work    ', 'soft b'], ['White Swan Data, London ', ''], ['(2024, 2025)', 'dim']],
-    [['Langs   ', 'soft b'], [langs.slice(0, 4).map((l) => l.name).join(', '), '']],
-    [['Repos   ', 'soft b'], [`${u.repositories.totalCount} public, ${stars} stars`, '']],
-    [['Year    ', 'soft b'], [`${n(cal.totalContributions)} contributions, ${n(u.contributionsCollection.totalCommitContributions)} commits`, '']],
-    [['Uptime  ', 'soft b'], [`${years} years `, ''], [`(since ${monthName} ${since.getFullYear()})`, 'dim']],
-    [['Web     ', 'soft b'], ['jesusrgc.dev', 'ok']],
+    [['OS          ', 'soft b'], ['Arch Linux, Omarchy (Hyprland)', '']],
+    [['Host        ', 'soft b'], ['Universidad de Granada', '']],
+    [['Degree      ', 'soft b'], ['B.Sc. Computer Engineering', '']],
+    [['Role        ', 'soft b'], ['sysadmin / infra / networks / devops', '']],
+    [['Internship  ', 'soft b'], ['White Swan Data, London ', ''], ['(2024, 2025)', 'dim']],
+    [['Langs       ', 'soft b'], [langs.slice(0, 4).map((l) => l.name).join(', '), '']],
+    [['Repos       ', 'soft b'], [`${u.repositories.totalCount} public, ${stars} stars`, '']],
+    [['Year        ', 'soft b'], [`${n(cal.totalContributions)} contributions, ${n(u.contributionsCollection.totalCommitContributions)} commits`, '']],
+    [['Uptime      ', 'soft b'], [`${years} years `, ''], [`(since ${monthName} ${since.getFullYear()})`, 'dim']],
+    [['Web         ', 'soft b'], ['jesusrgc.dev', 'ok']],
   ];
   const lines = facts.map((r, i) => `<g class="line" style="animation-delay:${(0.15 + i * 0.09).toFixed(2)}s">${runs(rx, top + i * LH, r)}</g>`).join('\n');
   const swatches = [C.bg, C.surface, C.rule, C.hl1, C.accent, C.soft, C.hl2, C.branch, C.dim, C.fg]
@@ -283,11 +283,11 @@ function profile() {
   // neofetch, without a logo: the facts in two columns.
   const top = 250, colB = 470;
   const left = [
-    [['OS      ', 'soft b'], ['Arch Linux, Omarchy', '']],
-    [['WM      ', 'soft b'], ['Hyprland', '']],
-    [['Host    ', 'soft b'], ['Universidad de Granada', '']],
-    [['Degree  ', 'soft b'], ['Computer Engineering', '']],
-    [['Work    ', 'soft b'], ['Internship at White Swan Data, London', '']],
+    [['OS          ', 'soft b'], ['Arch Linux, Omarchy', '']],
+    [['WM          ', 'soft b'], ['Hyprland', '']],
+    [['Host        ', 'soft b'], ['Universidad de Granada', '']],
+    [['Degree      ', 'soft b'], ['Computer Engineering', '']],
+    [['Internship  ', 'soft b'], ['White Swan Data, London', '']],
   ];
   const right = [
     [['Langs   ', 'soft b'], [langs.slice(0, 3).map((l) => l.name).join(', '), '']],

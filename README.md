@@ -24,7 +24,7 @@ I have spent two summers in **London** as a **DevOps** intern at White Swan Data
 
 ---
 
-<img src="assets/contrib.svg" alt="Contributions in the last year" width="100%">
-<img src="assets/languages.svg" alt="Languages across public repositories" width="100%">
+<picture><img src="assets/contrib.svg" alt="Contributions in the last year" width="100%"></picture>
+<picture><img src="assets/languages.svg" alt="Languages across public repositories" width="100%"></picture>
 
 [**jesusrgc.dev**](https://jesusrgc.dev) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/jes%C3%BAs-rgc) &nbsp;·&nbsp; [contacto@jesusrgc.dev](mailto:contacto@jesusrgc.dev)

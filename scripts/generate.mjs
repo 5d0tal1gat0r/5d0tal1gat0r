@@ -362,10 +362,10 @@ function languages() {
 ${legend}`);
 }
 
-// The README uses profile, contrib and languages. The other cards belong to the
+// The README uses only the profile card. The other cards belong to the
 // earlier layouts in options/ and are only built locally with --all.
-const out = { 'profile.svg': profile(), 'contrib.svg': contrib(), 'languages.svg': languages() };
-if (process.argv.includes('--all')) Object.assign(out, { 'neofetch.svg': neofetch(), 'gitlog.svg': gitlog(), 'header.svg': header() });
+const out = { 'profile.svg': profile() };
+if (process.argv.includes('--all')) Object.assign(out, { 'neofetch.svg': neofetch(), 'gitlog.svg': gitlog(), 'header.svg': header(), 'contrib.svg': contrib(), 'languages.svg': languages() });
 mkdirSync(path('assets/'), { recursive: true });
 for (const [f, s] of Object.entries(out)) {
   writeFileSync(path(`assets/${f}`), s);

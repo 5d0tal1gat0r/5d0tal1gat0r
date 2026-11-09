@@ -24,7 +24,19 @@ I have spent two summers in **London** as a **DevOps** intern at White Swan Data
 
 ---
 
-<picture><img src="assets/contrib.svg" alt="Contributions in the last year" width="100%"></picture>
-<picture><img src="assets/languages.svg" alt="Languages across public repositories" width="100%"></picture>
+#### What I work with
+
+<p align="center">
+<picture><img src="https://skillicons.dev/icons?i=linux,arch,bash,docker,nginx,cloudflare,githubactions,raspberrypi&theme=dark" alt="Linux, Arch, Bash, Docker, Nginx, Cloudflare, GitHub Actions, Raspberry Pi"></picture>
+<br>
+<picture><img src="https://skillicons.dev/icons?i=py,ts,js,cpp,react,qt,git&theme=dark" alt="Python, TypeScript, JavaScript, C++, React Native, QML, Git"></picture>
+</p>
+
+#### Contributions
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/5d0tal1gat0r/5d0tal1gat0r/output/snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/5d0tal1gat0r/5d0tal1gat0r/output/snake-light.svg" alt="A snake eating my contributions from the last year" width="100%">
+</picture>
 
 [**jesusrgc.dev**](https://jesusrgc.dev) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/jes%C3%BAs-rgc) &nbsp;·&nbsp; [contacto@jesusrgc.dev](mailto:contacto@jesusrgc.dev)

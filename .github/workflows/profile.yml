@@ -1,4 +1,4 @@
-name: Refresh profile cards
+name: Refresh profile
 
 on:
   schedule:
@@ -6,27 +6,50 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [scripts/**, fonts/**]
+    paths: [scripts/**, fonts/**, .github/workflows/**]
 
 permissions:
   contents: write
 
 jobs:
-  cards:
+  profile:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Generate SVG cards
+
+      - name: Generate the profile card
         run: node scripts/generate.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Commit if changed
+
+      - name: Commit the card if it changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets data
-          git diff --cached --quiet || git commit -m "chore: refresh profile cards"
+          git diff --cached --quiet || git commit -m "chore: refresh profile card"
           git push
+
+      # The snake eating the contribution grid, in the jesusrgc.dev palette.
+      # Dots go from no contributions to the most: navy, then darker to brighter crimson.
+      - name: Generate the snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-dark.svg?color_snake=#ee5a5d&color_dots=#142238,#3d1a22,#5c1e22,#a63f43,#ee5a5d
+            dist/snake-light.svg?color_snake=#c2393c&color_dots=#ebedf0,#f7c9ca,#ee9a9c,#e0676a,#c2393c
+
+      # Kept off main: the snake lives on its own "output" branch.
+      - name: Publish the snake to the output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+          commit_message: "chore: refresh snake"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

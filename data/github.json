@@ -1057,11 +1057,11 @@
             },
             {
               "date": "2026-06-26",
-              "contributionCount": 4
+              "contributionCount": 3
             },
             {
               "date": "2026-06-27",
-              "contributionCount": 0
+              "contributionCount": 1
             }
           ]
         },
@@ -1173,11 +1173,11 @@
             },
             {
               "date": "2026-07-21",
-              "contributionCount": 1
+              "contributionCount": 0
             },
             {
               "date": "2026-07-22",
-              "contributionCount": 0
+              "contributionCount": 1
             },
             {
               "date": "2026-07-23",
@@ -1637,7 +1637,7 @@
             },
             {
               "date": "2026-10-31",
-              "contributionCount": 59
+              "contributionCount": 57
             }
           ]
         },
@@ -1645,7 +1645,7 @@
           "contributionDays": [
             {
               "date": "2026-11-01",
-              "contributionCount": 97
+              "contributionCount": 99
             },
             {
               "date": "2026-11-02",

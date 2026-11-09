@@ -287,7 +287,7 @@ function profile() {
     [['WM      ', 'soft b'], ['Hyprland', '']],
     [['Host    ', 'soft b'], ['Universidad de Granada', '']],
     [['Degree  ', 'soft b'], ['Computer Engineering', '']],
-    [['Work    ', 'soft b'], ['White Swan Data, London', '']],
+    [['Work    ', 'soft b'], ['Internship at White Swan Data, London', '']],
   ];
   const right = [
     [['Langs   ', 'soft b'], [langs.slice(0, 3).map((l) => l.name).join(', '), '']],

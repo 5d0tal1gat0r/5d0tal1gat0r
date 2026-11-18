@@ -7,7 +7,7 @@
     "totalCommitContributions": 134,
     "totalPullRequestContributions": 8,
     "contributionCalendar": {
-      "totalContributions": 1475,
+      "totalContributions": 1455,
       "weeks": [
         {
           "contributionDays": [
@@ -1669,7 +1669,7 @@
             },
             {
               "date": "2026-11-14",
-              "contributionCount": 76
+              "contributionCount": 57
             }
           ]
         },
@@ -1677,7 +1677,7 @@
           "contributionDays": [
             {
               "date": "2026-11-15",
-              "contributionCount": 9
+              "contributionCount": 8
             },
             {
               "date": "2026-11-16",
@@ -1685,6 +1685,10 @@
             },
             {
               "date": "2026-11-17",
+              "contributionCount": 0
+            },
+            {
+              "date": "2026-11-18",
               "contributionCount": 0
             }
           ]
